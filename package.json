@@ -1,0 +1,42 @@
+{
+  "name": "ofixio-mcp",
+  "version": "1.0.0",
+  "mcpName": "io.github.AllTerrainDeveloper/ofixio",
+  "description": "MCP server for Ofixio — find skilled tradespeople in Spain (fontaneros, electricistas, pintores, cerrajeros). Search by postal code or city.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllTerrainDeveloper/ofixio-mcp.git"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "ofixio-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "ofixio",
+    "tradespeople",
+    "spain",
+    "fontanero",
+    "electricista",
+    "directorio-profesionales"
+  ]
+}

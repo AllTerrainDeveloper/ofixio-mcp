@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.AllTerrainDeveloper/ofixio",
+  "description": "Find skilled tradespeople in Spain — fontaneros, electricistas, pintores, cerrajeros.",
+  "repository": {
+    "url": "https://github.com/AllTerrainDeveloper/ofixio-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "ofixio-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "OFIXIO_URL",
+          "description": "Base URL of the Ofixio site. Defaults to https://ofixio.es",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}
