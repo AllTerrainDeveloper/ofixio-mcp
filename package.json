@@ -1,7 +1,7 @@
 {
   "name": "ofixio-mcp",
-  "version": "1.0.1",
-  "mcpName": "io.github.AllTerrainDeveloper/ofixio",
+  "version": "1.0.2",
+  "mcpName": "es.ofixio/professionals",
   "description": "MCP server for Ofixio — find skilled tradespeople in Spain (fontaneros, electricistas, pintores, cerrajeros). Search by postal code or city.",
   "repository": {
     "type": "git",
